@@ -1,0 +1,48 @@
+
+.container{
+    text-align: center;
+}
+h2{
+    color: white;
+}
+.header{
+    background-color: red;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.sidebar1{
+    background-color: green;
+    gap: 10px;
+    border-radius: 5px;
+    padding-right: 20px;
+
+}
+.doanvan{
+    background-color: yellow;
+    gap: 10px;
+    border-radius: 5px;
+    height: 400px;
+}
+.sidebar2{
+    background-color: palevioletred;
+    gap: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.footer{
+    background-color: blue;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 5px;
+}
+@media screen and (max-width:768px) {
+    .main{
+        flex-direction: column;
+    };
+}
